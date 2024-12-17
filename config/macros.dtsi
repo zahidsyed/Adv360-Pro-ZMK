@@ -1,3 +1,21 @@
+macro_top_pc: macro_top_pc{
+compatible = "zmk,behavior-macro";
+label = "macro_top_pc";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp UP_ARROW>;
+};
+macro_bottom_pc: macro_bottom_pc{
+compatible = "zmk,behavior-macro";
+label = "macro_bottom_pc";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp DOWN_ARROW>;
+};
+macro_volmute: macro_volmute{
+compatible = "zmk,behavior-macro";
+label = "macro_volmute";
+#binding-cells = <0>;
+bindings = <&kp K_MUTE>;
+};
 macro_wrkspace_left: macro_wrkspace_left{
 compatible = "zmk,behavior-macro";
 label = "macro_wrkspace_left";
