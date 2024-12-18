@@ -1,3 +1,9 @@
+macro_skipword: macro_skipword{
+compatible = "zmk,behavior-macro";
+label = "macro_skipword";
+#binding-cells = <0>;
+bindings = <&kp LC(RIGHT)>;
+};
 macro_top_pc: macro_top_pc{
 compatible = "zmk,behavior-macro";
 label = "macro_top_pc";
