@@ -2,13 +2,13 @@ macro_top_pc: macro_top_pc{
 compatible = "zmk,behavior-macro";
 label = "macro_top_pc";
 #binding-cells = <0>;
-bindings = <&kp LC(LA(LS(UP_ARROW)))>;
+bindings = <&kp LC(LA(LS(UP)))>;
 };
 macro_bottom_pc: macro_bottom_pc{
 compatible = "zmk,behavior-macro";
 label = "macro_bottom_pc";
 #binding-cells = <0>;
-bindings = <&kp LC(LA(LS(DOWN_ARROW)))>;
+bindings = <&kp LC(LA(LS(DOWN)))>;
 };
 macro_volmute: macro_volmute{
 compatible = "zmk,behavior-macro";
@@ -20,13 +20,13 @@ macro_wrkspace_left: macro_wrkspace_left{
 compatible = "zmk,behavior-macro";
 label = "macro_wrkspace_left";
 #binding-cells = <0>;
-bindings = <&kp LC(LG(LEFT_ARROW))>;
+bindings = <&kp LC(LG(LEFT))>;
 };
 macro_wrkspace_right: macro_wrkspace_right{
 compatible = "zmk,behavior-macro";
 label = "macro_wrkspace_right";
 #binding-cells = <0>;
-bindings = <&kp LC(LG(RIGHT_ARROW))>;
+bindings = <&kp LC(LG(RIGHT))>;
 };
 macro_voldwn: macro_voldwn{
 compatible = "zmk,behavior-macro";
